@@ -1,0 +1,182 @@
+/* Restablecimiento de márgenes y padding */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+}
+
+body {
+   background-color: #e9f4fb;  /* Azul muy suave */
+   color: #333;
+   line-height: 1.6;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+}
+
+/* Estilos cabecera */
+header {
+   width: 100%;
+   height: 100px;
+   background-color: #4a90e2;  /* Azul medio */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#logotipo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#logotipo img {
+   width: 50px;
+   height: 50px;
+   margin-right: 10px;
+}
+
+#logotipo h1 {
+   color: white;
+   font-weight: bold;
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+}
+
+/* Estilos barra de navegación */
+nav {
+   width: 100%;
+   background-color: #2a4d77;  /* Azul oscuro */
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   padding: 10px 0;
+}
+
+nav ul li {
+   position: relative;
+}
+
+nav ul li a {
+   color: #f4f8fb;  /* Blanco suave */
+   text-decoration: none;
+   padding: 10px 20px;
+   display: block;
+}
+
+nav ul li a:hover {
+   background-color: #3c72a7;  /* Azul medio */
+   color: white;
+   transition: background-color 0.3s ease;
+}
+
+/* Estilos contenido */
+#content {
+   width: 90%;
+   max-width: 1200px;
+   margin: 30px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+   font-size: 2rem;
+   color: #333;
+   text-align: center;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+.box {
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box .image {
+   max-width: 45%;
+   float: left;
+   margin-right: 30px;
+}
+
+.box .image img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.box form {
+   clear: both;
+}
+
+.box form input,
+.box form label {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+
+.box form input[type="submit"] {
+   background-color: #4a90e2;  /* Azul medio */
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-size: 1.1rem;
+}
+
+.box form input[type="submit"]:hover {
+   background-color: #3c72a7;  /* Azul más oscuro */
+   transition: background-color 0.3s ease;
+}
+
+/* Estilos para mensajes y alertas */
+.message, .alert-success {
+   padding: 15px;
+   background-color: #4a90e2;  /* Azul medio */
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-size: 1.2rem;
+}
+
+.alert-warning {
+   padding: 15px;
+   background-color: #2a4d77;  /* Azul oscuro */
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-size: 1.2rem;
+}
+
+/* Estilos al Footer */
+footer {
+   background-color: #4a90e2;  /* Azul medio */
+   color: white;
+   text-align: center;
+   padding: 20px 0;
+   margin-top: 40px;
+   font-size: 1rem;
+   box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+   color: white;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
